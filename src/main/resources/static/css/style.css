@@ -49,6 +49,21 @@ p {
     padding: 10px;
 }
 
+.imagem-secao {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-secao img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #ff3b30;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
 .content {
     max-width: 800px;
     margin: 20px auto;

@@ -11,11 +11,17 @@
         <h1>FraudAlert</h1>
         <ul>
             <li><a href="/">Home</a></li>
+            <li><a th:href="@{/cadastro}">Cadastro</a></li>
+            <li><a th:href="@{/login}">Login</a></li>
         </ul>
     </nav>
 
     <h2>Bem-vindo ao FraudAlert</h2>
     <p>Denuncie fraudes e golpes na internet</p>
+
+    <div class="imagem-secao">
+        <img th:src="@{/img/images.jpg}" alt="Fraud Alert - Celular com aviso">
+    </div>
 
     <section class="content">
         <h3>O que é FraudAlert?</h3>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - FraudAlert</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <nav>
+        <h1>FraudAlert</h1>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a th:href="@{/cadastro}">Cadastro</a></li>
+            <li><a th:href="@{/login}">Login</a></li>
+        </ul>
+    </nav>
+
+    <h2>Cadastro de Usuário</h2>
+
+    <form method="POST">
+        <div class="form-group">
+            <label>Nome Completo:</label>
+            <input type="text" name="nome" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Senha:</label>
+            <input type="password" name="senha" required>
+        </div>
+
+        <div class="form-group">
+            <label>Confirmar Senha:</label>
+            <input type="password" name="confirma-senha" required>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2025 FraudAlert</p>
+    </footer>
+</body>
+</html>

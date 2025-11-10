@@ -10,4 +10,14 @@ public class MainController {
     public String index() {
         return "index";
     }
+
+    @GetMapping("/cadastro")
+    public String cadastro() {
+        return "cadastro";
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
