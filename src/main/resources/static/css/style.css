@@ -144,3 +144,30 @@ a.btn-home {
 a.btn-home:hover {
     background-color: #e02e26;
 }
+
+/* Alertas */
+.alert {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #ff3b30;
+}
+
+.alert-sucesso {
+    background-color: #d4edda;
+    border-left-color: #28a745;
+    color: #155724;
+}
+
+.alert-erro {
+    background-color: #f8d7da;
+    border-left-color: #dc3545;
+    color: #721c24;
+}
+
+.alert p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}

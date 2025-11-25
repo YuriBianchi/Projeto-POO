@@ -36,7 +36,7 @@ public class Usuario {
     private String cpf;
 
     @Column(nullable = false)
-    private String tipo; // "usuario" ou "admin"
+    private String tipo = "usuario"; // "usuario" ou "admin"
 
     @Column(name = "criado_em")
     private java.time.LocalDateTime criadoEm = java.time.LocalDateTime.now();
